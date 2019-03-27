@@ -1,7 +1,7 @@
 var axios = require("axios");
 var moment = require('moment');
 
-var bands = function searchBandsInTown(artist) {
+var bands = function(artist) {
     var apiStr = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
     //call bandsintown API via axios with the search string
