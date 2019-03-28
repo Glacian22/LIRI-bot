@@ -12,6 +12,9 @@ if (command === "concert-this") {
 } else if (command === "spotify-this-song") {
     var song = getArg();
     spotify(song);    
+}else if (command === "movie-this"){
+    var movieTitle = getArg();
+    movie(movieTitle)
 }
 
 function getArg(){
