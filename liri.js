@@ -18,8 +18,6 @@ if (command === "concert-this") {
     spotify(song);    
 }
 
-
-
 function getArg(){
     var arg = "";
     //loop over process.argv for index 3+ to get the full argument
