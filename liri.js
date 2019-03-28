@@ -2,11 +2,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var bands = require("./bands")
 var spotify = require("./spotify")
-
-// var spotify = new Spotify(keys.spotify);
-
-// console.log(keys.spotify)
-
+var movie = require("./movie")
 
 var command = process.argv[2]
 
