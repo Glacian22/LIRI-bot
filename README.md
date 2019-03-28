@@ -16,4 +16,4 @@ Liri-bot is a backend CLI application that retrieves data from several different
 * OMDB
 
 ### Demo
-![Liri-bot in action](https://gph.is/g/ZkvG7Aa)
+![Liri-bot in action](https://media.giphy.com/media/vvmiON6DM5USqLxLEk/giphy.gif)
