@@ -2,11 +2,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var bands = require("./bands")
 var spotify = require("./spotify")
-
-// var spotify = new Spotify(keys.spotify);
-
-// console.log(keys.spotify)
-
+var movie = require("./movie")
 
 var command = process.argv[2]
 
@@ -16,6 +12,9 @@ if (command === "concert-this") {
 } else if (command === "spotify-this-song") {
     var song = getArg();
     spotify(song);    
+}else if (command === "movie-this"){
+    var movieTitle = getArg();
+    movie(movieTitle)
 }
 
 function getArg(){
