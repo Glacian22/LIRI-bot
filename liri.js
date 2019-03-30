@@ -19,6 +19,8 @@ function runLiri(command, input) {
         movie(input);
     } else if (command === "do-what-it-says") {
         doWhatItSays();
+    } else {
+        console.log("Please enter a valid command")
     }
 }
 function getInput() {
